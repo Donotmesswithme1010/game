@@ -5,10 +5,10 @@ files:
     destination: /var/www/html
 hooks:
   AfterInstall:
-    - location: sudo install  
+    - location: scripts/ install  
       timeout: 300
       runas: root
   ApplicationStart:
-    - location: sudo start
+    - location: scripts/ start
       timesout: 300
       runas: root     
