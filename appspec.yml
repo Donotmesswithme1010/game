@@ -9,6 +9,6 @@ hooks:
       timeout: 300
       runas: root
   ApplicationStart:
-    - location: scripts/start_apache2.sh 
+    - location: start
       timesout: 300
       runas: root     
