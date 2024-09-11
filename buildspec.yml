@@ -14,9 +14,5 @@ phases:
       commands:
         - echo Build completed on `date`  
 artifacts:
-  type: zip
   files:
-    - package.json
-    - package-lock.json
-    - "build/**/*"
-    - .ebextensions/**/*
+    - '**/*'
